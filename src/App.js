@@ -10,14 +10,13 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        // Set up the Router
+        {/* Set up the Router */}
         <Route exact path="/" component={Projects} />
         <Route path="/articles" component={Contact} />
         <Route path="/about" component={About} />
         <div className="navigation">
           <img src={logo} className="logo-image" alt="Logo Image" />
           <div className="navigation-sub">
-
             {/* set up links */}
             <Link to="/" className="item">
               Projects
